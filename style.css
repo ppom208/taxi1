@@ -1,0 +1,120 @@
+/* Start banner */
+.banner {
+    width: 100%;
+    background: #ffc600;
+    color: white;
+}
+.banner h1{
+    font-size: 6em;
+}
+.banner button{
+    margin-top: 20px;
+}
+.banner .banner-img{
+    object-fit: cover;
+    max-width: 100%;
+}
+.banner .banner-img:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+/* End banner */
+/* Start selection */
+.selection i{
+    font-size: 3em;
+    color: #ffc600;
+}
+.selection i:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.selection .more{
+    color: white;
+}
+.selection .more:hover{
+    color: #ffc600;
+    padding: 5px;
+    background: white;
+}
+/* End selection */
+/* Start line */
+.line .lined{
+    margin-left: 200px;
+}
+.hr-step{
+    height: 3px;
+    background-color: #ffc600; 
+    width: 60px; 
+    border: none; 
+    border-radius: 2px;
+}
+/* End line */
+/* Start list sline img */
+.border-list{
+    border: 2px solid black;
+}
+.list-img .img-border{
+    object-fit: cover;
+    max-width: 100%;
+    border: 5px solid #ffc600;
+    box-shadow: 0 5px 8px gray;
+}
+.list-img .img-border:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.list-img h3{
+    padding-top: 20px;
+}
+.list-img .book-now{
+    padding: 10px 50px;
+    background:#ffc600;
+    color:white;
+    border-radius: 20px 50px 0 20px;
+    font-weight: bold;
+}
+.list-img .img-city-slide{
+    max-width: 100%;
+    object-fit: cover;
+}
+.content-slide-img .image{
+    overflow: hidden;
+}
+.content-slide .content-slide-img{
+    border: 2px solid black;
+    box-shadow: 0 5px 15px 0 black;
+}
+.list-img img.img-city-slide{
+    object-fit: cover;
+    max-width: 100%;
+    transition: all ease-in-out ;
+}
+.list-img img.img-city-slide:hover{
+    transform: scale(1.5);
+    transition: all ease-in-out 1s;
+}
+.list-img .content-slide-img .hr-line{
+    height: 1px;
+    background: #dedede;
+    width: 100%;
+    border: none;
+}
+.list-img .content-slide-img .book-now-city{
+    background:black;
+    padding: 10px 25px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px 50px 0 20px;
+    font-weight: bold;
+    font-size: 1em;
+}
+.list-img .book-now-city:hover{
+    text-decoration: none;
+    color: #ffc600;
+}
+
+/* footer */
+footer{
+    background: #ffc600;
+    margin-top: 50px;
+}
